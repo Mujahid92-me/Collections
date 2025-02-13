@@ -1,0 +1,27 @@
+Collections is an API/Framework
+Arrays-To store multiple values
+ 1.The Size is fixed
+ 2.It can contain only one kind of data type(type casting issues)
+ 
+ 
+ Wrapper classes":
+ wrapper classes are those use to wrap primitive data types so that they behave like an object.
+ Integer,Character,Boolean,Long,Float,Double.
+ 
+ 
+ List list = new ArrayList() vs ArrayList list = new ArrayList()
+ 
+List is an interface, ArrayList is a class which implements List interface.
+
+By creating an referance of type List and assigning to it an object of a type ArrayList like this. A) List mylist = new ArrayList(); You can use only the methods that are availivle in List and overriden in ArrayList.
+
+But when you are creating an Arraylist type object like this. B) ArrayList mylist = new ArrayList(); You can use all the methods availible in ArrayList.
+
+So If your ArrayList has a native method which is not availible in the interface List you can't use them with the example A).
+
+
+
+ collections:
+ 1.Size is infinite
+ 2.Can contain multiple type of data
+ 3.
